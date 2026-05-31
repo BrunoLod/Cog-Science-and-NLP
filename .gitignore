@@ -1,0 +1,93 @@
+# ==========================================
+# Python bytecode / cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual environments
+# (onde ficam os pacotes instalados via pip)
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# Pip / build artifacts
+# ==========================================
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+
+# ==========================================
+# Environment variables / secrets
+# ==========================================
+.env
+.env.*
+
+# ==========================================
+# IDEs / Editors
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# OS files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Test / coverage
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Type checkers / linters
+# ==========================================
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# ==========================================
+# Ignore tudo relacionado a dependências
+# EXCETO os arquivos que descrevem os pacotes
+# ==========================================
+
+# Poetry
+poetry.lock
+
+# Pip
+pip-wheel-metadata/
+
+# Mantém os arquivos de dependência
+!requirements.txt
+!requirements-dev.txt
+!pyproject.toml
+!Pipfile
+!Pipfile.lock
